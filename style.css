@@ -1,0 +1,71 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Outfit:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+body{
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(220, 15%, 55%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+.container{
+    width:320px;
+    padding:16px;
+    border-radius: 19px;
+    background-color: white;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+}
+
+.container img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.container img + p{
+    font-size:1.5rem;
+    font-weight: bolder;
+    color:hsl(218, 44%, 22%);
+    text-align:center;
+    margin:20px 0;
+}
+.container p +p{
+    color:hsl(212, 45%, 89%);
+    padding-bottom: 4%;
+    margin-left:5%;
+    margin-right: 5%;
+    
+    font-weight: 400;
+}
+/*
+@media (max-width:375px) {
+    body{
+        width: 100%;
+
+    }
+    .container{
+        width: 80%;
+        margin-left:30px;
+        margin-top:50px;
+
+
+        }
+        .container img +p{
+            font-weight: 700;
+            padding: 0%;
+            font-size: 1.2rem;
+            margin:5%;
+        }
+        .container p + p{
+            margin-right:0%;
+        }
+
+}
+*/
